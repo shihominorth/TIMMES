@@ -99,7 +99,7 @@ class CallinglistViewController: UITableViewController {
     // about deta the cell has
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = (tableView.dequeueReusableCell(withIdentifier: "callingItem", for:indexPath) as? callingItemTableViewCell)!
+        let cell = (tableView.dequeueReusableCell(withIdentifier: "callingItem", for:indexPath) as? CallingItemTableViewCell)!
         
         //        let orderCellNum = plans![indexPath.row].order as? Int
         

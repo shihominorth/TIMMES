@@ -1,11 +1,12 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'TIMMES' do
+target 'checklist' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for checklist'
+  # Pods for checklist
+
 pod 'SideMenu'
 pod 'DZNEmptyDataSet'
 pod 'Gecco'
@@ -13,4 +14,5 @@ pod 'Gecco'
 # google api
 pod 'GoogleMaps'
 pod 'GooglePlaces'
+
 end

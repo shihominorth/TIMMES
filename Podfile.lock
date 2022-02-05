@@ -1,14 +1,13 @@
 PODS:
   - DZNEmptyDataSet (1.8.1)
-  - Gecco (1.0.0)
-  - GoogleMaps (3.9.0):
-    - GoogleMaps/Maps (= 3.9.0)
-  - GoogleMaps/Base (3.9.0)
-  - GoogleMaps/Maps (3.9.0):
+  - Gecco (2.0.0)
+  - GoogleMaps (6.0.1):
+    - GoogleMaps/Maps (= 6.0.1)
+  - GoogleMaps/Base (6.0.1)
+  - GoogleMaps/Maps (6.0.1):
     - GoogleMaps/Base
-  - GooglePlaces (3.9.0):
-    - GoogleMaps/Base (= 3.9.0)
-  - SideMenu (6.4.8)
+  - GooglePlaces (6.0.0)
+  - SideMenu (6.5.0)
 
 DEPENDENCIES:
   - DZNEmptyDataSet
@@ -27,11 +26,11 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
-  Gecco: e662f949821e742997787bad7b730ccc0052e43c
-  GoogleMaps: 4b5346bddfe6911bb89155d43c903020170523ac
-  GooglePlaces: 1634d019549b969d40fe0ccb0b9513055adebe01
-  SideMenu: 4a891be552d30bb6fa87ad404d62e485f8450c34
+  Gecco: 6d4225d0b58f6cf952d198a831904d50e646ec3f
+  GoogleMaps: c213fc2334b7374144cede914da779b99be0ab74
+  GooglePlaces: c97d96ae68594acb64035c9ca9f26fbfc1d23af1
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
 
-PODFILE CHECKSUM: 1876138376ea6c9ee85737023b76092887c8c497
+PODFILE CHECKSUM: d5b41a48d1242bd6fa6cd2be7a5f343bfc81e54c
 
 COCOAPODS: 1.11.2

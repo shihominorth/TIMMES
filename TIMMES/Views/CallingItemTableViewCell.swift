@@ -8,16 +8,16 @@
 
 import UIKit
 
-class callingItemTableViewCell: UITableViewCell {
+class CallingItemTableViewCell: UITableViewCell {
 
     
     @IBOutlet weak var nameCallingForLabel: UILabel!
-    @IBOutlet weak var localNameLabel: UILabel!
+//    @IBOutlet weak var localNameLabel: UILabel!
     @IBOutlet weak var localTimeLabel: UILabel!
     @IBOutlet weak var localDateLabel: UILabel!
     @IBOutlet weak var destinationNameLabel: UILabel!
-    @IBOutlet weak var jetLagLabel: UILabel!
-    @IBOutlet weak var destinationTimeLabel: UILabel!
+//    @IBOutlet weak var jetLagLabel: UILabel!
+//    @IBOutlet weak var destinationTimeLabel: UILabel!
     
     
     override func awakeFromNib() {
