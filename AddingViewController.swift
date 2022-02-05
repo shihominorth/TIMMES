@@ -164,16 +164,18 @@ extension AddingViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        if indexPath.section == 1 || indexPath.section == 3 || indexPath.section == 6 {
+        if (indexPath.section == 1 || indexPath.section == 3 || indexPath.section == 6) && indexPath.row == 0{
             
             tableView.beginUpdates()
             
-            if let datePickerIndexPath = datePickerIndexPath, datePickerIndexPath.row - 1 == indexPath.row {
+            if let datePickerIndexPath = datePickerIndexPath {
                 
-                tableView.reloadRows(at: [indexPath], with: .none)
-                tableView.deleteRows(at: [datePickerIndexPath], with: .fade)
-                self.datePickerIndexPath = nil
-                isFirstOpenDatePicker = false
+                if datePickerIndexPath.row - 1 == indexPath.row  && isFirstOpenDatePicker{
+                    tableView.reloadRows(at: [indexPath], with: .none)
+                    tableView.deleteRows(at: [datePickerIndexPath], with: .fade)
+                    self.datePickerIndexPath = nil
+                    isFirstOpenDatePicker = false
+                }
                 
             } else {
                 // 2

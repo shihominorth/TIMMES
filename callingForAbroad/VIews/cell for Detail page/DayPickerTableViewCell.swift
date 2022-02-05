@@ -50,9 +50,14 @@ class DayPickerTableViewCell: UITableViewCell {
 
     func DatePicker() {
         self.datePicker = UIDatePicker()
+        datePicker.isUserInteractionEnabled = true
         datePicker.addTarget(self, action: #selector(dateDidChange), for: .valueChanged)
         self.addSubview(datePicker)
         
+        if #available(iOS 13.4, *) {
+            datePicker.preferredDatePickerStyle = .wheels
+            
+        }
     }
     
     func updateCell(date: Date, indexPath: IndexPath) {

@@ -20,7 +20,7 @@ class LaunchViewController: UIViewController {
         
         self.navigationController?.navigationBar.isHidden = true
         
-        
+        iconImageView.center.x = self.view.center.x
         iconImageView.frame.origin.y = self.view.frame.origin.y - iconImageView.frame.height
         
         UIView.animate(withDuration: 0.5, animations: {
