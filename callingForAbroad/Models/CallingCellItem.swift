@@ -21,11 +21,4 @@ class callingCellItem: NSObject {
     var notification = ""
     var placeCallingAt = ""
     
-    
-//    var checked = false
-//   
-//    
-//    func toggleChecked() {
-//        checked = !checked
-//    }
 }

@@ -21,7 +21,7 @@
 		6F150BA623AAE0AF00908DEB /* PlaceCallingAtAddingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F150BA523AAE0AF00908DEB /* PlaceCallingAtAddingTableViewCell.swift */; };
 		6F150BA823AAE0C800908DEB /* MapPlaceCallingAtTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F150BA723AAE0C800908DEB /* MapPlaceCallingAtTableViewCell.swift */; };
 		6F1ABCAD24414C530032F145 /* NameCallingForTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1ABCAC24414C530032F145 /* NameCallingForTableViewCell.swift */; };
-		6F29FA8B24149BCD0008D639 /* getTimeDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F29FA8A24149BCD0008D639 /* getTimeDifference.swift */; };
+		6F29FA8B24149BCD0008D639 /* GetTimeDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F29FA8A24149BCD0008D639 /* GetTimeDifference.swift */; };
 		6F3BF39B2388BADF003CE424 /* DetailCallingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3BF39A2388BADF003CE424 /* DetailCallingTableViewController.swift */; };
 		6F3FF55123DC1D0E005162C7 /* EdittingMapPlaceCallingAtTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3FF54823DC1D0C005162C7 /* EdittingMapPlaceCallingAtTableViewCell.swift */; };
 		6F3FF55223DC1D0E005162C7 /* EdittingLocalDateCallingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3FF54923DC1D0D005162C7 /* EdittingLocalDateCallingTableViewCell.swift */; };
@@ -33,34 +33,34 @@
 		6F3FF55923DC1D0E005162C7 /* EdittingNotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3FF55023DC1D0E005162C7 /* EdittingNotificationTableViewCell.swift */; };
 		6F3FF56023E11D09005162C7 /* callingForAbroad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F3FF55E23E11D09005162C7 /* callingForAbroad.xcdatamodeld */; };
 		6F3FF56623E38753005162C7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3FF56523E38753005162C7 /* MapViewController.swift */; };
-		6F3FF56823E38AF5005162C7 /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3FF56723E38AF5005162C7 /* MapTableViewCell.swift */; };
-		6F4966272411CF0700397B4F /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4966262411CF0700397B4F /* extensions.swift */; };
-		6F60732724417E7C008E6817 /* DayPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F60732624417E7C008E6817 /* DayPickerTableViewCell.swift */; };
-		6F60732B24417EBD008E6817 /* NotificaitonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F60732A24417EBD008E6817 /* NotificaitonTableViewCell.swift */; };
+		6F4966272411CF0700397B4F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4966262411CF0700397B4F /* Extensions.swift */; };
 		6F60732D24417F32008E6817 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F60732C24417F32008E6817 /* NotificationViewController.swift */; };
-		6F60732F24417F47008E6817 /* nameCallingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F60732E24417F47008E6817 /* nameCallingViewController.swift */; };
+		6F60732F24417F47008E6817 /* NameCallingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F60732E24417F47008E6817 /* NameCallingViewController.swift */; };
 		6F60733124417F57008E6817 /* EdittingDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F60733024417F56008E6817 /* EdittingDetailTableViewController.swift */; };
-		6F60733524417F7B008E6817 /* addingCallingItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F60733424417F7B008E6817 /* addingCallingItemTableViewController.swift */; };
 		6F6073372441800D008E6817 /* DestinationCityNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6073362441800D008E6817 /* DestinationCityNameTableViewCell.swift */; };
-		6F6073402441A3BC008E6817 /* Plan+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F60733E2441A3BC008E6817 /* Plan+CoreDataClass.swift */; };
-		6F6073412441A3BC008E6817 /* Plan+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F60733F2441A3BC008E6817 /* Plan+CoreDataProperties.swift */; };
 		6F82229F242F1D8A0020ACF7 /* EdittingNameCallingForTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82229E242F1D8A0020ACF7 /* EdittingNameCallingForTableViewCell.swift */; };
 		6F8222A1242F21EC0020ACF7 /* LocalNameAddingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8222A0242F21EC0020ACF7 /* LocalNameAddingTableViewCell.swift */; };
 		6F8222A5242F26A70020ACF7 /* NortificationStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8222A4242F26A70020ACF7 /* NortificationStruct.swift */; };
-		6F84A6E52418A43D00EECBA2 /* nameCitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F84A6E42418A43D00EECBA2 /* nameCitiesTableViewCell.swift */; };
+		6F84A6E52418A43D00EECBA2 /* NameCitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F84A6E42418A43D00EECBA2 /* NameCitiesTableViewCell.swift */; };
 		6F84A6E72418A45600EECBA2 /* LocalNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F84A6E62418A45600EECBA2 /* LocalNameViewController.swift */; };
 		6F84A6E92418A48100EECBA2 /* AboutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F84A6E82418A48100EECBA2 /* AboutTableViewCell.swift */; };
 		6F8BE79E23EED8C300CEA348 /* DestinationNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8BE79D23EED8C300CEA348 /* DestinationNameViewController.swift */; };
 		6F8BE7B823F2631A00CEA348 /* DetailPlaceCallingAtTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8BE7B723F2631A00CEA348 /* DetailPlaceCallingAtTableViewCell.swift */; };
-		6F8BE7E723F4569100CEA348 /* PickNotificationTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8BE7E623F4569100CEA348 /* PickNotificationTimeTableViewCell.swift */; };
-		6FA5384D23AD0A3400F73D08 /* callingItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA5384C23AD0A3400F73D08 /* callingItemTableViewCell.swift */; };
+		6F91A37427AE106400C5B897 /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F91A37327AE106300C5B897 /* MapTableViewCell.swift */; };
+		6F91A37627AE107F00C5B897 /* PickNotificationTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F91A37527AE107F00C5B897 /* PickNotificationTimeTableViewCell.swift */; };
+		6F91A37927AE15A500C5B897 /* DayPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F91A37727AE15A500C5B897 /* DayPickerTableViewCell.swift */; };
+		6F91A37A27AE15A500C5B897 /* NotificaitonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F91A37827AE15A500C5B897 /* NotificaitonTableViewCell.swift */; };
+		6F91A37E27AE168800C5B897 /* Plan+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F91A37C27AE168800C5B897 /* Plan+CoreDataClass.swift */; };
+		6F91A37F27AE168800C5B897 /* Plan+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F91A37D27AE168800C5B897 /* Plan+CoreDataProperties.swift */; };
+		6F91A38127AE19C100C5B897 /* AddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F91A38027AE19C000C5B897 /* AddingViewController.swift */; };
+		6FA5384D23AD0A3400F73D08 /* CallingItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA5384C23AD0A3400F73D08 /* CallingItemTableViewCell.swift */; };
 		6FAFCF4B23A9FF05008918CD /* LocalNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAFCF4A23A9FF05008918CD /* LocalNameTableViewCell.swift */; };
 		6FB4DD3D248DDE1E00A57B63 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4DD3C248DDE1E00A57B63 /* LaunchViewController.swift */; };
 		6FB4DD3F248DF10A00A57B63 /* IconAnimationImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4DD3E248DF10A00A57B63 /* IconAnimationImageView.swift */; };
 		6FB86BFE23E8191800672851 /* DateCallingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB86BFD23E8191800672851 /* DateCallingTableViewCell.swift */; };
 		6FB86BFF23E8196B00672851 /* LocalTimeAddingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F150B9F23AAE05500908DEB /* LocalTimeAddingTableViewCell.swift */; };
 		6FB86C0323E81AD800672851 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB86C0223E81AD700672851 /* MenuTableViewController.swift */; };
-		6FB86C0523E8795000672851 /* apiKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6FB86C0423E8795000672851 /* apiKey.plist */; };
+		6FB86C0523E8795000672851 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6FB86C0423E8795000672851 /* APIKey.plist */; };
 		6FB86C0723E87B6900672851 /* KeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB86C0623E87B6900672851 /* KeyManager.swift */; };
 		6FB86C0E23E93B8A00672851 /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB86C0D23E93B8A00672851 /* Root.swift */; };
 		6FB86C1023E9402200672851 /* SerachResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB86C0F23E9402200672851 /* SerachResult.swift */; };
@@ -71,15 +71,14 @@
 		6FB94E3723AAE28300BDE9E0 /* TimeDifferenceAddingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB94E3623AAE28300BDE9E0 /* TimeDifferenceAddingTableViewCell.swift */; };
 		6FECA0F723750BCE00B7DD8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FECA0F623750BCE00B7DD8B /* AppDelegate.swift */; };
 		6FECA0F923750BCE00B7DD8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FECA0F823750BCE00B7DD8B /* SceneDelegate.swift */; };
-		6FECA0FB23750BCE00B7DD8B /* callinglistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FECA0FA23750BCE00B7DD8B /* callinglistViewController.swift */; };
+		6FECA0FB23750BCE00B7DD8B /* CallinglistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FECA0FA23750BCE00B7DD8B /* CallinglistViewController.swift */; };
 		6FECA0FE23750BCE00B7DD8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FECA0FC23750BCE00B7DD8B /* Main.storyboard */; };
 		6FECA10023750BD200B7DD8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FECA0FF23750BD200B7DD8B /* Assets.xcassets */; };
 		6FECA10323750BD200B7DD8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FECA10123750BD200B7DD8B /* LaunchScreen.storyboard */; };
-		6FECA13323767A1500B7DD8B /* callingCellItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FECA13223767A1500B7DD8B /* callingCellItem.swift */; };
+		6FECA13323767A1500B7DD8B /* CallingCellItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FECA13223767A1500B7DD8B /* CallingCellItem.swift */; };
 		6FECA139237A3AC700B7DD8B /* CallingCellList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FECA138237A3AC700B7DD8B /* CallingCellList.swift */; };
-		6FFB6CE52484D49600501798 /* AddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFB6CE42484D49600501798 /* AddingViewController.swift */; };
 		6FFCD850244177A5007CC109 /* PlaceCallingAtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFCD84A244177A5007CC109 /* PlaceCallingAtViewController.swift */; };
-		6FFCD8562441789E007CC109 /* functionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFCD8552441789E007CC109 /* functionTableViewCell.swift */; };
+		6FFCD8562441789E007CC109 /* FunctionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFCD8552441789E007CC109 /* FunctionTableViewCell.swift */; };
 		6FFCD85824417966007CC109 /* LocalNortificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFCD85724417966007CC109 /* LocalNortificationDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -99,7 +98,7 @@
 		6F150BA523AAE0AF00908DEB /* PlaceCallingAtAddingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCallingAtAddingTableViewCell.swift; sourceTree = "<group>"; };
 		6F150BA723AAE0C800908DEB /* MapPlaceCallingAtTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPlaceCallingAtTableViewCell.swift; sourceTree = "<group>"; };
 		6F1ABCAC24414C530032F145 /* NameCallingForTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NameCallingForTableViewCell.swift; path = ../NameCallingForTableViewCell.swift; sourceTree = "<group>"; };
-		6F29FA8A24149BCD0008D639 /* getTimeDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getTimeDifference.swift; sourceTree = "<group>"; };
+		6F29FA8A24149BCD0008D639 /* GetTimeDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTimeDifference.swift; sourceTree = "<group>"; };
 		6F3BF39A2388BADF003CE424 /* DetailCallingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCallingTableViewController.swift; sourceTree = "<group>"; };
 		6F3FF54823DC1D0C005162C7 /* EdittingMapPlaceCallingAtTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdittingMapPlaceCallingAtTableViewCell.swift; sourceTree = "<group>"; };
 		6F3FF54923DC1D0D005162C7 /* EdittingLocalDateCallingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdittingLocalDateCallingTableViewCell.swift; sourceTree = "<group>"; };
@@ -111,33 +110,33 @@
 		6F3FF55023DC1D0E005162C7 /* EdittingNotificationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdittingNotificationTableViewCell.swift; sourceTree = "<group>"; };
 		6F3FF55F23E11D09005162C7 /* callingForAbroad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = callingForAbroad.xcdatamodel; sourceTree = "<group>"; };
 		6F3FF56523E38753005162C7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		6F3FF56723E38AF5005162C7 /* MapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapTableViewCell.swift; path = controller/MapTableViewCell.swift; sourceTree = "<group>"; };
-		6F4966262411CF0700397B4F /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
-		6F60732624417E7C008E6817 /* DayPickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DayPickerTableViewCell.swift; path = "callingForAbroad/Views/cell for Detail page/DayPickerTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
-		6F60732A24417EBD008E6817 /* NotificaitonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificaitonTableViewCell.swift; path = "callingForAbroad/Views/cell for Detail page/NotificaitonTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		6F4966262411CF0700397B4F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		6F60732C24417F32008E6817 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
-		6F60732E24417F47008E6817 /* nameCallingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nameCallingViewController.swift; sourceTree = "<group>"; };
+		6F60732E24417F47008E6817 /* NameCallingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameCallingViewController.swift; sourceTree = "<group>"; };
 		6F60733024417F56008E6817 /* EdittingDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdittingDetailTableViewController.swift; sourceTree = "<group>"; };
-		6F60733424417F7B008E6817 /* addingCallingItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addingCallingItemTableViewController.swift; sourceTree = "<group>"; };
 		6F6073362441800D008E6817 /* DestinationCityNameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DestinationCityNameTableViewCell.swift; path = callingForAbroad/Views/DestinationCityNameTableViewCell.swift; sourceTree = SOURCE_ROOT; };
-		6F60733E2441A3BC008E6817 /* Plan+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plan+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		6F60733F2441A3BC008E6817 /* Plan+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plan+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		6F82229E242F1D8A0020ACF7 /* EdittingNameCallingForTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdittingNameCallingForTableViewCell.swift; sourceTree = "<group>"; };
 		6F8222A0242F21EC0020ACF7 /* LocalNameAddingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNameAddingTableViewCell.swift; sourceTree = "<group>"; };
 		6F8222A4242F26A70020ACF7 /* NortificationStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NortificationStruct.swift; sourceTree = "<group>"; };
-		6F84A6E42418A43D00EECBA2 /* nameCitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nameCitiesTableViewCell.swift; sourceTree = "<group>"; };
+		6F84A6E42418A43D00EECBA2 /* NameCitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCitiesTableViewCell.swift; sourceTree = "<group>"; };
 		6F84A6E62418A45600EECBA2 /* LocalNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNameViewController.swift; sourceTree = "<group>"; };
 		6F84A6E82418A48100EECBA2 /* AboutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewCell.swift; sourceTree = "<group>"; };
 		6F8BE79D23EED8C300CEA348 /* DestinationNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationNameViewController.swift; sourceTree = "<group>"; };
 		6F8BE7B723F2631A00CEA348 /* DetailPlaceCallingAtTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlaceCallingAtTableViewCell.swift; sourceTree = "<group>"; };
-		6F8BE7E623F4569100CEA348 /* PickNotificationTimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PickNotificationTimeTableViewCell.swift; path = callingForAbroad/controller/PickNotificationTimeTableViewCell.swift; sourceTree = SOURCE_ROOT; };
-		6FA5384C23AD0A3400F73D08 /* callingItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = callingItemTableViewCell.swift; path = callingForAbroad/VIews/callingItemTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		6F91A37327AE106300C5B897 /* MapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
+		6F91A37527AE107F00C5B897 /* PickNotificationTimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickNotificationTimeTableViewCell.swift; sourceTree = "<group>"; };
+		6F91A37727AE15A500C5B897 /* DayPickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPickerTableViewCell.swift; sourceTree = "<group>"; };
+		6F91A37827AE15A500C5B897 /* NotificaitonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificaitonTableViewCell.swift; sourceTree = "<group>"; };
+		6F91A37C27AE168800C5B897 /* Plan+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plan+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6F91A37D27AE168800C5B897 /* Plan+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plan+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6F91A38027AE19C000C5B897 /* AddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingViewController.swift; sourceTree = "<group>"; };
+		6FA5384C23AD0A3400F73D08 /* CallingItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CallingItemTableViewCell.swift; path = callingForAbroad/VIews/CallingItemTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		6FAFCF4A23A9FF05008918CD /* LocalNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNameTableViewCell.swift; sourceTree = "<group>"; };
 		6FB4DD3C248DDE1E00A57B63 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LaunchViewController.swift; path = callingForAbroad/LaunchViewController.swift; sourceTree = SOURCE_ROOT; };
 		6FB4DD3E248DF10A00A57B63 /* IconAnimationImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IconAnimationImageView.swift; path = callingForAbroad/IconAnimationImageView.swift; sourceTree = SOURCE_ROOT; };
 		6FB86BFD23E8191800672851 /* DateCallingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCallingTableViewCell.swift; sourceTree = "<group>"; };
 		6FB86C0223E81AD700672851 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
-		6FB86C0423E8795000672851 /* apiKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = apiKey.plist; sourceTree = SOURCE_ROOT; };
+		6FB86C0423E8795000672851 /* APIKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = SOURCE_ROOT; };
 		6FB86C0623E87B6900672851 /* KeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyManager.swift; sourceTree = "<group>"; };
 		6FB86C0D23E93B8A00672851 /* Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
 		6FB86C0F23E9402200672851 /* SerachResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerachResult.swift; sourceTree = "<group>"; };
@@ -149,16 +148,15 @@
 		6FECA0F323750BCE00B7DD8B /* checklist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = checklist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FECA0F623750BCE00B7DD8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FECA0F823750BCE00B7DD8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6FECA0FA23750BCE00B7DD8B /* callinglistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = callinglistViewController.swift; sourceTree = "<group>"; };
+		6FECA0FA23750BCE00B7DD8B /* CallinglistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallinglistViewController.swift; sourceTree = "<group>"; };
 		6FECA0FD23750BCE00B7DD8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6FECA0FF23750BD200B7DD8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FECA10223750BD200B7DD8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FECA10423750BD200B7DD8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6FECA13223767A1500B7DD8B /* callingCellItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = callingCellItem.swift; sourceTree = "<group>"; };
+		6FECA13223767A1500B7DD8B /* CallingCellItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingCellItem.swift; sourceTree = "<group>"; };
 		6FECA138237A3AC700B7DD8B /* CallingCellList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingCellList.swift; sourceTree = "<group>"; };
-		6FFB6CE42484D49600501798 /* AddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingViewController.swift; sourceTree = SOURCE_ROOT; };
 		6FFCD84A244177A5007CC109 /* PlaceCallingAtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceCallingAtViewController.swift; sourceTree = "<group>"; };
-		6FFCD8552441789E007CC109 /* functionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = functionTableViewCell.swift; sourceTree = "<group>"; };
+		6FFCD8552441789E007CC109 /* FunctionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionTableViewCell.swift; sourceTree = "<group>"; };
 		6FFCD85724417966007CC109 /* LocalNortificationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNortificationDelegate.swift; sourceTree = "<group>"; };
 		762C15F89F85575D3B4F29B2 /* Pods_checklist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_checklist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7AFB689752CA962807AC07 /* Pods-checklist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-checklist.debug.xcconfig"; path = "Target Support Files/Pods-checklist/Pods-checklist.debug.xcconfig"; sourceTree = "<group>"; };
@@ -176,36 +174,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6F047B032394BB5C00AD3F09 /* controller */ = {
+		6F047B032394BB5C00AD3F09 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				6FB4DD3C248DDE1E00A57B63 /* LaunchViewController.swift */,
-				6FFB6CE42484D49600501798 /* AddingViewController.swift */,
 				6F0B0B592478AB2800D6B53E /* EditingViewController.swift */,
-				6F60733424417F7B008E6817 /* addingCallingItemTableViewController.swift */,
 				6F3BF39A2388BADF003CE424 /* DetailCallingTableViewController.swift */,
-				6FECA0FA23750BCE00B7DD8B /* callinglistViewController.swift */,
+				6FECA0FA23750BCE00B7DD8B /* CallinglistViewController.swift */,
 				6F84A6E62418A45600EECBA2 /* LocalNameViewController.swift */,
 				6FFCD84A244177A5007CC109 /* PlaceCallingAtViewController.swift */,
 				6F60732C24417F32008E6817 /* NotificationViewController.swift */,
-				6F60732E24417F47008E6817 /* nameCallingViewController.swift */,
+				6F60732E24417F47008E6817 /* NameCallingViewController.swift */,
 				6FB86C0223E81AD700672851 /* MenuTableViewController.swift */,
 				6F3FF56523E38753005162C7 /* MapViewController.swift */,
-				6FB86C2423E9DEFD00672851 /* SeeDetailView.swift */,
 				6F60733024417F56008E6817 /* EdittingDetailTableViewController.swift */,
 				6F8BE79D23EED8C300CEA348 /* DestinationNameViewController.swift */,
+				6F91A38027AE19C000C5B897 /* AddingViewController.swift */,
 			);
-			path = controller;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		6F150B7423AA04B800908DEB /* cell for Detail page */ = {
+		6F150B7423AA04B800908DEB /* Cells for Detail Page */ = {
 			isa = PBXGroup;
 			children = (
-				6F60732624417E7C008E6817 /* DayPickerTableViewCell.swift */,
+				6F91A37527AE107F00C5B897 /* PickNotificationTimeTableViewCell.swift */,
+				6F91A37727AE15A500C5B897 /* DayPickerTableViewCell.swift */,
+				6F91A37827AE15A500C5B897 /* NotificaitonTableViewCell.swift */,
 				6F1ABCAC24414C530032F145 /* NameCallingForTableViewCell.swift */,
-				6F8BE7E623F4569100CEA348 /* PickNotificationTimeTableViewCell.swift */,
 				6F8BE7B723F2631A00CEA348 /* DetailPlaceCallingAtTableViewCell.swift */,
-				6F60732A24417EBD008E6817 /* NotificaitonTableViewCell.swift */,
 				6FB86BFD23E8191800672851 /* DateCallingTableViewCell.swift */,
 				6FAFCF4A23A9FF05008918CD /* LocalNameTableViewCell.swift */,
 				6F150B6C23AA024300908DEB /* LocalTimeTableViewCell.swift */,
@@ -213,10 +209,10 @@
 				6F150B7023AA03FD00908DEB /* JetLagTableViewCell.swift */,
 				6F150B7223AA047500908DEB /* DestinationTimeTableViewCell.swift */,
 			);
-			path = "cell for Detail page";
+			path = "Cells for Detail Page";
 			sourceTree = "<group>";
 		};
-		6F150B9223AA2D0500908DEB /* cell for editting detail */ = {
+		6F150B9223AA2D0500908DEB /* Cells for Editting Detail */ = {
 			isa = PBXGroup;
 			children = (
 				6F82229E242F1D8A0020ACF7 /* EdittingNameCallingForTableViewCell.swift */,
@@ -229,7 +225,7 @@
 				6F3FF54823DC1D0C005162C7 /* EdittingMapPlaceCallingAtTableViewCell.swift */,
 				6F3FF55023DC1D0E005162C7 /* EdittingNotificationTableViewCell.swift */,
 			);
-			path = "cell for editting detail";
+			path = "Cells for Editting Detail";
 			sourceTree = "<group>";
 		};
 		6F150BA923AAE0F200908DEB /* Adding Calling Item */ = {
@@ -249,33 +245,47 @@
 			path = "Adding Calling Item";
 			sourceTree = "<group>";
 		};
-		6F82229B242F17AD0020ACF7 /* VIews */ = {
+		6F82229B242F17AD0020ACF7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6F91A37327AE106300C5B897 /* MapTableViewCell.swift */,
+				6FB86C2423E9DEFD00672851 /* SeeDetailView.swift */,
 				6FB4DD3E248DF10A00A57B63 /* IconAnimationImageView.swift */,
 				6F6073362441800D008E6817 /* DestinationCityNameTableViewCell.swift */,
 				6F150BA923AAE0F200908DEB /* Adding Calling Item */,
-				6FA5384C23AD0A3400F73D08 /* callingItemTableViewCell.swift */,
+				6FA5384C23AD0A3400F73D08 /* CallingItemTableViewCell.swift */,
 				6F84A6E82418A48100EECBA2 /* AboutTableViewCell.swift */,
-				6F84A6E42418A43D00EECBA2 /* nameCitiesTableViewCell.swift */,
-				6FFCD8552441789E007CC109 /* functionTableViewCell.swift */,
-				6F150B9223AA2D0500908DEB /* cell for editting detail */,
-				6F150B7423AA04B800908DEB /* cell for Detail page */,
+				6F84A6E42418A43D00EECBA2 /* NameCitiesTableViewCell.swift */,
+				6FFCD8552441789E007CC109 /* FunctionTableViewCell.swift */,
+				6F150B9223AA2D0500908DEB /* Cells for Editting Detail */,
+				6F150B7423AA04B800908DEB /* Cells for Detail Page */,
 			);
-			path = VIews;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		6FB86C1823E9420000672851 /* structs */ = {
+		6F91A37B27AE164600C5B897 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				6F91A37C27AE168800C5B897 /* Plan+CoreDataClass.swift */,
+				6F91A37D27AE168800C5B897 /* Plan+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		6FB86C1823E9420000672851 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6F91A37B27AE164600C5B897 /* CoreData */,
 				6FB86C0D23E93B8A00672851 /* Root.swift */,
 				6FB86C0F23E9402200672851 /* SerachResult.swift */,
 				6FB86C1123E9415A00672851 /* Geometry.swift */,
 				6FB86C1323E9417B00672851 /* Location.swift */,
 				6FB86C1523E941C100672851 /* Photo.swift */,
 				6F8222A4242F26A70020ACF7 /* NortificationStruct.swift */,
+				6FECA13223767A1500B7DD8B /* CallingCellItem.swift */,
+				6FECA138237A3AC700B7DD8B /* CallingCellList.swift */,
 			);
-			path = structs;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		6FECA0EA23750BCE00B7DD8B = {
@@ -299,25 +309,20 @@
 		6FECA0F523750BCE00B7DD8B /* callingForAbroad */ = {
 			isa = PBXGroup;
 			children = (
-				6F60733E2441A3BC008E6817 /* Plan+CoreDataClass.swift */,
-				6F60733F2441A3BC008E6817 /* Plan+CoreDataProperties.swift */,
-				6F82229B242F17AD0020ACF7 /* VIews */,
+				6F82229B242F17AD0020ACF7 /* Views */,
 				6FFCD85724417966007CC109 /* LocalNortificationDelegate.swift */,
-				6F4966262411CF0700397B4F /* extensions.swift */,
-				6F29FA8A24149BCD0008D639 /* getTimeDifference.swift */,
-				6F3FF56723E38AF5005162C7 /* MapTableViewCell.swift */,
-				6F047B032394BB5C00AD3F09 /* controller */,
-				6FB86C1823E9420000672851 /* structs */,
+				6F4966262411CF0700397B4F /* Extensions.swift */,
+				6F29FA8A24149BCD0008D639 /* GetTimeDifference.swift */,
+				6F047B032394BB5C00AD3F09 /* Controllers */,
+				6FB86C1823E9420000672851 /* Models */,
 				6FECA0F623750BCE00B7DD8B /* AppDelegate.swift */,
 				6FECA0F823750BCE00B7DD8B /* SceneDelegate.swift */,
-				6FECA138237A3AC700B7DD8B /* CallingCellList.swift */,
-				6FECA13223767A1500B7DD8B /* callingCellItem.swift */,
 				6FECA0FC23750BCE00B7DD8B /* Main.storyboard */,
 				6F3FF55E23E11D09005162C7 /* callingForAbroad.xcdatamodeld */,
 				6FECA0FF23750BD200B7DD8B /* Assets.xcassets */,
 				6FECA10123750BD200B7DD8B /* LaunchScreen.storyboard */,
 				6FECA10423750BD200B7DD8B /* Info.plist */,
-				6FB86C0423E8795000672851 /* apiKey.plist */,
+				6FB86C0423E8795000672851 /* APIKey.plist */,
 				6FB86C0623E87B6900672851 /* KeyManager.swift */,
 			);
 			path = callingForAbroad;
@@ -402,7 +407,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FECA10323750BD200B7DD8B /* LaunchScreen.storyboard in Resources */,
-				6FB86C0523E8795000672851 /* apiKey.plist in Resources */,
+				6FB86C0523E8795000672851 /* APIKey.plist in Resources */,
 				6FECA10023750BD200B7DD8B /* Assets.xcassets in Resources */,
 				6FECA0FE23750BCE00B7DD8B /* Main.storyboard in Resources */,
 			);
@@ -474,43 +479,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F91A37E27AE168800C5B897 /* Plan+CoreDataClass.swift in Sources */,
+				6F91A37F27AE168800C5B897 /* Plan+CoreDataProperties.swift in Sources */,
+				6F91A37927AE15A500C5B897 /* DayPickerTableViewCell.swift in Sources */,
+				6F91A37A27AE15A500C5B897 /* NotificaitonTableViewCell.swift in Sources */,
+				6F91A37627AE107F00C5B897 /* PickNotificationTimeTableViewCell.swift in Sources */,
+				6F91A37427AE106400C5B897 /* MapTableViewCell.swift in Sources */,
 				6F1ABCAD24414C530032F145 /* NameCallingForTableViewCell.swift in Sources */,
 				6F84A6E92418A48100EECBA2 /* AboutTableViewCell.swift in Sources */,
 				6F84A6E72418A45600EECBA2 /* LocalNameViewController.swift in Sources */,
-				6F84A6E52418A43D00EECBA2 /* nameCitiesTableViewCell.swift in Sources */,
-				6F29FA8B24149BCD0008D639 /* getTimeDifference.swift in Sources */,
+				6F84A6E52418A43D00EECBA2 /* NameCitiesTableViewCell.swift in Sources */,
+				6F29FA8B24149BCD0008D639 /* GetTimeDifference.swift in Sources */,
 				6FB86C0323E81AD800672851 /* MenuTableViewController.swift in Sources */,
 				6FB86BFF23E8196B00672851 /* LocalTimeAddingTableViewCell.swift in Sources */,
 				6F0B0B5A2478AB2800D6B53E /* EditingViewController.swift in Sources */,
 				6FB86BFE23E8191800672851 /* DateCallingTableViewCell.swift in Sources */,
 				6F8BE7B823F2631A00CEA348 /* DetailPlaceCallingAtTableViewCell.swift in Sources */,
-				6F8BE7E723F4569100CEA348 /* PickNotificationTimeTableViewCell.swift in Sources */,
-				6F60733524417F7B008E6817 /* addingCallingItemTableViewController.swift in Sources */,
 				6FFCD850244177A5007CC109 /* PlaceCallingAtViewController.swift in Sources */,
 				6F150B9A23AAE00B00908DEB /* NameCallingForAddingTableViewCell.swift in Sources */,
 				6F150BA623AAE0AF00908DEB /* PlaceCallingAtAddingTableViewCell.swift in Sources */,
 				6F8BE79E23EED8C300CEA348 /* DestinationNameViewController.swift in Sources */,
 				6F150B7123AA03FD00908DEB /* JetLagTableViewCell.swift in Sources */,
 				6FB86C0723E87B6900672851 /* KeyManager.swift in Sources */,
-				6F4966272411CF0700397B4F /* extensions.swift in Sources */,
-				6FECA0FB23750BCE00B7DD8B /* callinglistViewController.swift in Sources */,
+				6F4966272411CF0700397B4F /* Extensions.swift in Sources */,
+				6FECA0FB23750BCE00B7DD8B /* CallinglistViewController.swift in Sources */,
 				6F3FF55523DC1D0E005162C7 /* EdittingLocalTimeTableViewCell.swift in Sources */,
 				6F3FF56023E11D09005162C7 /* callingForAbroad.xcdatamodeld in Sources */,
-				6F60732724417E7C008E6817 /* DayPickerTableViewCell.swift in Sources */,
 				6F6073372441800D008E6817 /* DestinationCityNameTableViewCell.swift in Sources */,
 				6F60733124417F57008E6817 /* EdittingDetailTableViewController.swift in Sources */,
 				6FECA0F723750BCE00B7DD8B /* AppDelegate.swift in Sources */,
 				6FB86C0E23E93B8A00672851 /* Root.swift in Sources */,
 				6F60732D24417F32008E6817 /* NotificationViewController.swift in Sources */,
-				6F3FF56823E38AF5005162C7 /* MapTableViewCell.swift in Sources */,
 				6F3FF56623E38753005162C7 /* MapViewController.swift in Sources */,
 				6F150B7323AA047500908DEB /* DestinationTimeTableViewCell.swift in Sources */,
 				6F3FF55823DC1D0E005162C7 /* EdittingDestinationNameTableViewCell.swift in Sources */,
 				6F8222A5242F26A70020ACF7 /* NortificationStruct.swift in Sources */,
-				6F60732B24417EBD008E6817 /* NotificaitonTableViewCell.swift in Sources */,
 				6FFCD85824417966007CC109 /* LocalNortificationDelegate.swift in Sources */,
 				6FB4DD3D248DDE1E00A57B63 /* LaunchViewController.swift in Sources */,
-				6F6073402441A3BC008E6817 /* Plan+CoreDataClass.swift in Sources */,
 				6F82229F242F1D8A0020ACF7 /* EdittingNameCallingForTableViewCell.swift in Sources */,
 				6FB94E3723AAE28300BDE9E0 /* TimeDifferenceAddingTableViewCell.swift in Sources */,
 				6FB86C2523E9DEFD00672851 /* SeeDetailView.swift in Sources */,
@@ -523,25 +528,24 @@
 				6F150BA223AAE07E00908DEB /* DestinationTimeAddingTableViewCell.swift in Sources */,
 				6FB86C1623E941C100672851 /* Photo.swift in Sources */,
 				6FB4DD3F248DF10A00A57B63 /* IconAnimationImageView.swift in Sources */,
-				6FFB6CE52484D49600501798 /* AddingViewController.swift in Sources */,
-				6FA5384D23AD0A3400F73D08 /* callingItemTableViewCell.swift in Sources */,
+				6FA5384D23AD0A3400F73D08 /* CallingItemTableViewCell.swift in Sources */,
 				6FECA0F923750BCE00B7DD8B /* SceneDelegate.swift in Sources */,
+				6F91A38127AE19C100C5B897 /* AddingViewController.swift in Sources */,
 				6F150BA823AAE0C800908DEB /* MapPlaceCallingAtTableViewCell.swift in Sources */,
-				6F6073412441A3BC008E6817 /* Plan+CoreDataProperties.swift in Sources */,
 				6FB86C1423E9417B00672851 /* Location.swift in Sources */,
 				6F3FF55123DC1D0E005162C7 /* EdittingMapPlaceCallingAtTableViewCell.swift in Sources */,
 				6F3BF39B2388BADF003CE424 /* DetailCallingTableViewController.swift in Sources */,
 				6FB86C1023E9402200672851 /* SerachResult.swift in Sources */,
-				6FFCD8562441789E007CC109 /* functionTableViewCell.swift in Sources */,
+				6FFCD8562441789E007CC109 /* FunctionTableViewCell.swift in Sources */,
 				6FAFCF4B23A9FF05008918CD /* LocalNameTableViewCell.swift in Sources */,
 				6FECA139237A3AC700B7DD8B /* CallingCellList.swift in Sources */,
 				6F150B9C23AAE03300908DEB /* DestinationNameAddingTableViewCell.swift in Sources */,
 				6F150B6F23AA038C00908DEB /* DestinationNameTableViewCell.swift in Sources */,
 				6F150B9E23AAE04A00908DEB /* LocalDateAddingTableViewCell.swift in Sources */,
-				6F60732F24417F47008E6817 /* nameCallingViewController.swift in Sources */,
+				6F60732F24417F47008E6817 /* NameCallingViewController.swift in Sources */,
 				6F3FF55423DC1D0E005162C7 /* EdittingDestinationTimeTableViewCell.swift in Sources */,
 				6F3FF55923DC1D0E005162C7 /* EdittingNotificationTableViewCell.swift in Sources */,
-				6FECA13323767A1500B7DD8B /* callingCellItem.swift in Sources */,
+				6FECA13323767A1500B7DD8B /* CallingCellItem.swift in Sources */,
 				6F3FF55223DC1D0E005162C7 /* EdittingLocalDateCallingTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -688,7 +692,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3A39A8Y7MG;
+				DEVELOPMENT_TEAM = JXVL9HBQR6;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				INFOPLIST_FILE = "$(SRCROOT)/callingForAbroad/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -707,7 +712,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3A39A8Y7MG;
+				DEVELOPMENT_TEAM = JXVL9HBQR6;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = "$(SRCROOT)/callingForAbroad/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

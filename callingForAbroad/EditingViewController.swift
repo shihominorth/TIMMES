@@ -68,7 +68,7 @@ class EditingViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "edittingNameCallingFor" {
-            if let edittingVC = segue.destination as? nameCallingViewController {
+            if let edittingVC = segue.destination as? NameCallingViewController {
                 edittingVC.item = self.edittedItem
                 edittingVC.indexPath = self.indexPath
                 edittingVC.delegate = self
@@ -400,7 +400,7 @@ extension EditingViewController: UITableViewDataSource {
 }
 
 extension EditingViewController: nameCallingViewControllerDelegate {
-    func editItemViewController(_ controller: nameCallingViewController, didFinishEditting item: Plan) {
+    func editItemViewController(_ controller: NameCallingViewController, didFinishEditting item: Plan) {
         self.edittedItem = item
         self.tableView.reloadData()
     }

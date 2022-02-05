@@ -8,7 +8,7 @@
 
 import UIKit
 
-class callinglistViewController: UITableViewController {
+class CallinglistViewController: UITableViewController {
     
     let callingCelllist = CallingCellList()
     
@@ -198,7 +198,7 @@ class callinglistViewController: UITableViewController {
     }
 }
 
-extension callinglistViewController: AddItemTableViewControllerDelegate {
+extension CallinglistViewController: AddItemTableViewControllerDelegate {
     func addItemViewController(_ controller: AddingViewController, didFinishAdding item: callingCellItem) {
         guard let rowIndex = plans?.count else { return }
         let item = addValue(item: item)
@@ -241,7 +241,7 @@ extension callinglistViewController: AddItemTableViewControllerDelegate {
     
 }
 
-extension callinglistViewController: EdittingViewControllerDelegate {
+extension CallinglistViewController: EdittingViewControllerDelegate {
     
     func DetailCallingTableViewController(_ controller: EditingViewController, cancelItem item: callingCellItem, indexPath: IndexPath) {
         

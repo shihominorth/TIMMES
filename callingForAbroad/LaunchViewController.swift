@@ -52,7 +52,7 @@ extension LaunchViewController:pushHomeVCDelegate {
         
         self.navigationController?.navigationBar.isHidden = false
         
-        guard let vc = self.storyboard?.instantiateViewController(identifier: "home") as? callinglistViewController else {
+        guard let vc = self.storyboard?.instantiateViewController(identifier: "home") as? CallinglistViewController else {
             fatalError()
         }
         

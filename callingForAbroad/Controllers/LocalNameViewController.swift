@@ -229,7 +229,7 @@ extension LocalNameViewController: UITableViewDataSource {
         let regions = nameRegion()
         var cities:[String] = []
         
-        let cell = (tableView.dequeueReusableCell(withIdentifier: "localName") as? nameCitiesTableViewCell)!
+        let cell = (tableView.dequeueReusableCell(withIdentifier: "localName") as? NameCitiesTableViewCell)!
         
         for (index, region) in regions.enumerated() {
             if indexPath.section == index {

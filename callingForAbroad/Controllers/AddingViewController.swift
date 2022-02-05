@@ -2,11 +2,18 @@
 //  AddingViewController.swift
 //  checklist
 //
-//  Created by 北島　志帆美 on 2020-05-31.
-//  Copyright © 2020 北島　志帆美. All rights reserved.
+//  Created by 北島　志帆美 on 2022-02-05.
+//  Copyright © 2022 北島　志帆美. All rights reserved.
 //
 
 import UIKit
+
+
+protocol AddItemTableViewControllerDelegate: AnyObject {
+    func addItemTableViewControllerDidCancel(_ controller: AddingViewController)
+    func addItemViewController(_ controller: AddingViewController, didFinishAdding item: callingCellItem)
+    
+}
 
 class AddingViewController: UIViewController {
     
@@ -26,11 +33,11 @@ class AddingViewController: UIViewController {
             isFirstOpenDatePicker = false
             
             self.tableView.beginUpdates()
-
+            
             self.tableView.reloadRows(at: [IndexPath(row: 0, section: 1)], with: .bottom)
             
             self.tableView.reloadRows(at: [IndexPath(row: 0, section: 3)], with: .bottom)
-                  
+            
             self.tableView.reloadRows(at: [IndexPath(row: 0, section: 6)], with: .bottom)
             
             self.tableView.endUpdates()
@@ -74,13 +81,13 @@ class AddingViewController: UIViewController {
                 infoUserNeed = "・You'll call"
                 
             }
-                
+            
             else if item.nameCallingFor != "" && item.destinationName == "" {
                 
                 infoUserNeed = "・ Where will you call"
                 
             }
-                
+            
             else if item.destinationName == "" && item.nameCallingFor == "" {
                 
                 infoUserNeed = "・ You'll call \n・ Where will you call"
@@ -102,7 +109,7 @@ class AddingViewController: UIViewController {
                 
                 if granted {
                     let notificationClass = LocalNortificationDelegate(timezoneIdentifier:
-                        self.item.localName, date: self.item.localDate!)
+                                                                        self.item.localName, date: self.item.localDate!)
                     notificationClass.setNotificationDate()
                     notificationClass.setNotificationDate(before: Int(self.item.notification)!)
                 }
@@ -113,51 +120,51 @@ class AddingViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-            // Get the new view controller using segue.destination.
-            // Pass the selected object to the new view controller.
-            if segue.identifier == "addingNameCallingFor" {
-                if let edittingVC = segue.destination as? nameCallingViewController {
-                    edittingVC.isAdding = true
-                    edittingVC.text = item.nameCallingFor
-                    edittingVC.delegate2 = self as nameCallingViewControllerDelegate2
-                }
-            }
-    
-            if segue.identifier == "addingLocalName" {
-                if let edittingVC = segue.destination as? LocalNameViewController {
-                    edittingVC.isAdding = true
-                    edittingVC.text = item.localName
-                    edittingVC.delegate2 = self as LocalNameViewControllerDelegate2
-                }
-            }
-    
-            if segue.identifier == "addingDestinationName" {
-                if let edittingVC = segue.destination as? DestinationNameViewController {
-                    edittingVC.isAdding = true
-                    edittingVC.text = item.destinationName
-                    edittingVC.delegate2 = self as DestinationNameViewControllerDelegate2
-                    //                edittingVC.delegate = self as! nameCallingViewControllerDelegate
-                }
-            }
-    
-            if segue.identifier == "addingNotification" {
-                if let edittingVC = segue.destination as? NotificationViewController {
-                    edittingVC.isAdding = true
-                    edittingVC.text = item.notification
-                    edittingVC.delegate2 = self as NotificationViewControllerDelegate2
-    
-                    //                edittingVC.delegate = self as! nameCallingViewControllerDelegate
-                }
-            }
-    
-            if segue.identifier == "addingplacecallingat" {
-                if let edittingVC = segue.destination as? PlaceCallingAtViewController {
-                    edittingVC.isAdding = true
-                    edittingVC.text = item.placeCallingAt
-                    edittingVC.delegate2 = self as PlaceCallingAtViewControllerDelegate2
-                }
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+        if segue.identifier == "addingNameCallingFor" {
+            if let edittingVC = segue.destination as? NameCallingViewController {
+                edittingVC.isAdding = true
+                edittingVC.text = item.nameCallingFor
+                edittingVC.delegate2 = self as NameCallingViewControllerDelegate2
             }
         }
+        
+        if segue.identifier == "addingLocalName" {
+            if let edittingVC = segue.destination as? LocalNameViewController {
+                edittingVC.isAdding = true
+                edittingVC.text = item.localName
+                edittingVC.delegate2 = self as LocalNameViewControllerDelegate2
+            }
+        }
+        
+        if segue.identifier == "addingDestinationName" {
+            if let edittingVC = segue.destination as? DestinationNameViewController {
+                edittingVC.isAdding = true
+                edittingVC.text = item.destinationName
+                edittingVC.delegate2 = self as DestinationNameViewControllerDelegate2
+                //                edittingVC.delegate = self as! nameCallingViewControllerDelegate
+            }
+        }
+        
+        if segue.identifier == "addingNotification" {
+            if let edittingVC = segue.destination as? NotificationViewController {
+                edittingVC.isAdding = true
+                edittingVC.text = item.notification
+                edittingVC.delegate2 = self as NotificationViewControllerDelegate2
+                
+                //                edittingVC.delegate = self as! nameCallingViewControllerDelegate
+            }
+        }
+        
+        if segue.identifier == "addingplacecallingat" {
+            if let edittingVC = segue.destination as? PlaceCallingAtViewController {
+                edittingVC.isAdding = true
+                edittingVC.text = item.placeCallingAt
+                edittingVC.delegate2 = self as PlaceCallingAtViewControllerDelegate2
+            }
+        }
+    }
 }
 
 extension AddingViewController: UITableViewDelegate {
@@ -297,7 +304,7 @@ extension AddingViewController: UITableViewDataSource {
             
             return cell
         }
-            
+        
         else if indexPath.section == 2 {
             let cell = (tableView.dequeueReusableCell(withIdentifier: "local name", for: indexPath) as? LocalNameAddingTableViewCell)!
             
@@ -370,12 +377,12 @@ extension AddingViewController: UITableViewDataSource {
             
             return cell
         }
-//        else if indexPath.section == 9
-//        {
-//            let cell = (tableView.dequeueReusableCell(withIdentifier: "map", for: indexPath) as? MapPlaceCallingAtTableViewCell)!
-//
-//            return cell
-//        }
+        //        else if indexPath.section == 9
+        //        {
+        //            let cell = (tableView.dequeueReusableCell(withIdentifier: "map", for: indexPath) as? MapPlaceCallingAtTableViewCell)!
+        //
+        //            return cell
+        //        }
         
         return UITableViewCell()
     }
@@ -475,8 +482,9 @@ extension AddingViewController: DatePickerDelegate {
     
 }
 
-extension AddingViewController: nameCallingViewControllerDelegate2 {
-    func editItemViewController(_ controller: nameCallingViewController, nameCallFor: String) {
+
+extension AddingViewController: NameCallingViewControllerDelegate2 {
+    func editItemViewController(_ controller: NameCallingViewController, nameCallFor: String) {
         self.item.nameCallingFor = nameCallFor
         tableView.reloadData()
     }

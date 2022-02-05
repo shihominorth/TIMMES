@@ -13,16 +13,23 @@ import GooglePlaces
 
 
 class MapViewController: UIViewController {
+   
     var mapView: GMSMapView!
     
-    let apiKey = KeyManager().getValue(key:"apiKey") as? String
+   
    
     private let locationManager = CLLocationManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
- 
         
+        
+        guard let apiKey = KeyManager().getValue(key:"apiKey") as? String else {
+            return
+        }
+        
+        GMSServices.provideAPIKey(apiKey)
+        GMSPlacesClient.provideAPIKey(apiKey)
         //        if CLLocationManager.locationServicesEnabled() {
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
@@ -38,17 +45,22 @@ class MapViewController: UIViewController {
         } else {
             print("Location services are not enabled")
         }
-        
-        //        }
+
         if CLLocationManager.authorizationStatus() == .authorizedAlways || CLLocationManager.authorizationStatus() == .authorizedWhenInUse {
              locationManager.startUpdatingLocation()
+            
+            
             let camera = GMSCameraPosition.camera(withLatitude: locationManager.location!.coordinate.latitude, longitude: locationManager.location!.coordinate.longitude, zoom: 15);
+            
             mapView = GMSMapView.map(withFrame: self.view.bounds, camera: camera)
-            mapView.delegate = self as GMSMapViewDelegate
-            self.view.addSubview(mapView)
+            mapView.delegate = self
             mapView.settings.myLocationButton = true
             mapView.isMyLocationEnabled = true
             
+            
+            self.view.addSubview(mapView)
+            
+           
             mapView.translatesAutoresizingMaskIntoConstraints = false
             NSLayoutConstraint.activate([
                 mapView.topAnchor.constraint(equalTo: view.topAnchor),
@@ -68,9 +80,16 @@ class MapViewController: UIViewController {
     }
     
     func getSupermarketImformation()  {
+        
         let session = URLSession.shared
         
-        let url = URL(string: "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=\(locationManager.location!.coordinate.latitude),\(locationManager.location!.coordinate.longitude)&radius=4500&type=cafe&key=\(apiKey!)")!
+        
+        guard let apiKey = KeyManager().getValue(key:"apiKey") as? String else {
+            return
+        }
+        
+        
+        let url = URL(string: "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=\(locationManager.location!.coordinate.latitude),\(locationManager.location!.coordinate.longitude)&radius=4500&type=cafe&key=\(apiKey)")!
         
         let task = session.dataTask(with: url) { data, response, error in
             

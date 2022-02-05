@@ -10,15 +10,15 @@ import UIKit
 
 protocol nameCallingViewControllerDelegate: class {
     
-    func editItemViewController(_ controller: nameCallingViewController, didFinishEditting item: Plan)
+    func editItemViewController(_ controller: NameCallingViewController, didFinishEditting item: Plan)
 
 }
 
-protocol nameCallingViewControllerDelegate2: class {
-    func editItemViewController(_ controller: nameCallingViewController, nameCallFor: String)
+protocol NameCallingViewControllerDelegate2: class {
+    func editItemViewController(_ controller: NameCallingViewController, nameCallFor: String)
 }
 
-class nameCallingViewController: UIViewController {
+class NameCallingViewController: UIViewController {
 
     var item: Plan?
     var original: String?
@@ -32,7 +32,7 @@ class nameCallingViewController: UIViewController {
     @IBOutlet weak var textField: UITextField!
     
     weak var delegate:nameCallingViewControllerDelegate?
-    weak var delegate2: nameCallingViewControllerDelegate2?
+    weak var delegate2: NameCallingViewControllerDelegate2?
     
     @IBAction func done(_ sender: Any) {
         
@@ -90,7 +90,7 @@ class nameCallingViewController: UIViewController {
 
 }
 
-extension nameCallingViewController: UITextFieldDelegate {
+extension NameCallingViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
