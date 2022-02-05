@@ -6,7 +6,6 @@ target 'checklist' do
   use_frameworks!
 
   # Pods for checklist
-
 pod 'SideMenu'
 pod 'DZNEmptyDataSet'
 pod 'Gecco'

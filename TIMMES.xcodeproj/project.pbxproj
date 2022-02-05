@@ -353,11 +353,11 @@
 			buildConfigurationList = 6FECA10723750BD200B7DD8B /* Build configuration list for PBXNativeTarget "checklist" */;
 			buildPhases = (
 				FFC9F738839AEC4E7D80D8CB /* [CP] Check Pods Manifest.lock */,
-				6FECA0EF23750BCE00B7DD8B /* Sources */,
 				6FECA0F023750BCE00B7DD8B /* Frameworks */,
 				6FECA0F123750BCE00B7DD8B /* Resources */,
 				283A0B13638560D15832ADCA /* [CP] Embed Pods Frameworks */,
 				0C2B4214DA5C7CBF8ED7D94C /* [CP] Copy Pods Resources */,
+				6FECA0EF23750BCE00B7DD8B /* Sources */,
 			);
 			buildRules = (
 			);
