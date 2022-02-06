@@ -2,7 +2,7 @@
 
 
 
-![appicon](https://github.com/shihominorth/TIMMES/blob/images/TIMMES/icon.png)
+![appicon](https://github.com/shihominorth/TIMMES/blob/images/icon.png)
 
 
 ## Getting Started
@@ -20,7 +20,7 @@ command line
 
 ## Architecture
 
-![architecture](https://github.com/shihominorth/TIMMES/blob/images/TIMMES/architecture.png)
+![architecture](https://github.com/shihominorth/TIMMES/blob/images/architecture.png)
 
 ## Technology
 
