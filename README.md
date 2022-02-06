@@ -20,7 +20,7 @@ command line
 
 ## Architecture
 
-![architecture](https://github.com/shihominorth/TIMMES/blob/images/architecture.png)
+![architecture](https://github.com/shihominorth/TIMMES/blob/images/Architecture.png)
 
 ## Technology
 
