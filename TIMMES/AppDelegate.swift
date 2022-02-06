@@ -14,9 +14,8 @@ import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    
-  
-    
+
+
     lazy var persistentContainer: NSPersistentContainer = {
         let container = NSPersistentContainer(name: "callingForAbroad")
         container.loadPersistentStores(completionHandler: {
@@ -46,7 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let center = UNUserNotificationCenter.current()
           center.delegate = self
         
-        if let apiKey = KeyManager().getValue(key:"apiKey") as? String {
+        if let apiKey = KeyManager().getValue(key:"Google Maps API Key") {
                GMSServices.provideAPIKey(apiKey)
                GMSPlacesClient.provideAPIKey(apiKey)
            }

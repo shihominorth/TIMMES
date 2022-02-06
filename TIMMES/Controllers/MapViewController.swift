@@ -15,7 +15,7 @@ import GooglePlaces
 class MapViewController: UIViewController {
    
     var mapView: GMSMapView!
-    
+    private var apiKey: String!
    
    
     private let locationManager = CLLocationManager()
@@ -24,9 +24,11 @@ class MapViewController: UIViewController {
         super.viewDidLoad()
         
         
-        guard let apiKey = KeyManager().getValue(key:"apiKey") as? String else {
+        guard let apiKey = KeyManager().getValue(key:"Google Maps API Key") else {
             return
         }
+        
+        self.apiKey = apiKey
         
         GMSServices.provideAPIKey(apiKey)
         GMSPlacesClient.provideAPIKey(apiKey)
@@ -84,12 +86,14 @@ class MapViewController: UIViewController {
         let session = URLSession.shared
         
         
-        guard let apiKey = KeyManager().getValue(key:"apiKey") as? String else {
+//        guard let apiKey = KeyManager().getValue(key:"apiKey") as? String else {
+//            return
+//        }
+//
+//
+        guard let url = URL(string: "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=\(locationManager.location!.coordinate.latitude),\(locationManager.location!.coordinate.longitude)&radius=4500&type=cafe&key=\(String(describing: self.apiKey))") else {
             return
         }
-        
-        
-        let url = URL(string: "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=\(locationManager.location!.coordinate.latitude),\(locationManager.location!.coordinate.longitude)&radius=4500&type=cafe&key=\(apiKey)")!
         
         let task = session.dataTask(with: url) { data, response, error in
             
