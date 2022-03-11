@@ -243,7 +243,7 @@ extension CallinglistViewController: AddItemTableViewControllerDelegate {
 
 extension CallinglistViewController: EdittingViewControllerDelegate {
     
-    func DetailCallingTableViewController(_ controller: EditingViewController, cancelItem item: callingCellItem, indexPath: IndexPath) {
+    func detailCallingTableViewController(_ controller: EditingViewController, cancelItem item: callingCellItem, indexPath: IndexPath) {
         
         let plan = addValue(item: item)
         plan.order = Int64(indexPath.row)
@@ -255,7 +255,7 @@ extension CallinglistViewController: EdittingViewControllerDelegate {
         self.tableView.reloadData()
     }
     
-    func DetailCallingTableViewController(_ controller: EditingViewController, didFinishEditting item: Plan, indexPath: IndexPath) {
+    func detailCallingTableViewController(_ controller: EditingViewController, didFinishEditting item: Plan, indexPath: IndexPath) {
         
         print(item.nameCallingFor!)
         //        appDelegate.saveContext()
@@ -264,7 +264,7 @@ extension CallinglistViewController: EdittingViewControllerDelegate {
         self.tableView.reloadData()
     }
     
-    func DetailCallingTableViewController(_ controller: EditingViewController, addNewItem item: Plan, indexPath: IndexPath){
+    func detailCallingTableViewController(_ controller: EditingViewController, addNewItem item: Plan, indexPath: IndexPath){
         guard let rowIndex = plans?.count else { return }
         item.order = Int64(plans!.count)
         appDelegate.saveContext()

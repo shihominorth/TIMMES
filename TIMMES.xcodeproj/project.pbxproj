@@ -18,6 +18,7 @@
 		6F150BA423AAE09000908DEB /* NotificationTimeAddingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F150BA323AAE09000908DEB /* NotificationTimeAddingTableViewCell.swift */; };
 		6F150BA623AAE0AF00908DEB /* PlaceCallingAtAddingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F150BA523AAE0AF00908DEB /* PlaceCallingAtAddingTableViewCell.swift */; };
 		6F150BA823AAE0C800908DEB /* MapPlaceCallingAtTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F150BA723AAE0C800908DEB /* MapPlaceCallingAtTableViewCell.swift */; };
+		6F1A4AAE27B2472000BD5DF7 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F1A4AAD27B2472000BD5DF7 /* APIKey.plist */; };
 		6F1ABCAD24414C530032F145 /* NameCallingForTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1ABCAC24414C530032F145 /* NameCallingForTableViewCell.swift */; };
 		6F29FA8B24149BCD0008D639 /* GetTimeDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F29FA8A24149BCD0008D639 /* GetTimeDifference.swift */; };
 		6F3BF39B2388BADF003CE424 /* DetailCallingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3BF39A2388BADF003CE424 /* DetailCallingTableViewController.swift */; };
@@ -41,7 +42,6 @@
 		6F84A6E52418A43D00EECBA2 /* NameCitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F84A6E42418A43D00EECBA2 /* NameCitiesTableViewCell.swift */; };
 		6F84A6E72418A45600EECBA2 /* LocalNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F84A6E62418A45600EECBA2 /* LocalNameViewController.swift */; };
 		6F84A6E92418A48100EECBA2 /* AboutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F84A6E82418A48100EECBA2 /* AboutTableViewCell.swift */; };
-		6F84BBE927AFD432005F1D61 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F84BBE827AFD432005F1D61 /* APIKey.plist */; };
 		6F8BE79E23EED8C300CEA348 /* DestinationNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8BE79D23EED8C300CEA348 /* DestinationNameViewController.swift */; };
 		6F8BE7B823F2631A00CEA348 /* DetailPlaceCallingAtTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8BE7B723F2631A00CEA348 /* DetailPlaceCallingAtTableViewCell.swift */; };
 		6F91A37427AE106400C5B897 /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F91A37327AE106300C5B897 /* MapTableViewCell.swift */; };
@@ -95,6 +95,7 @@
 		6F150BA323AAE09000908DEB /* NotificationTimeAddingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTimeAddingTableViewCell.swift; sourceTree = "<group>"; };
 		6F150BA523AAE0AF00908DEB /* PlaceCallingAtAddingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCallingAtAddingTableViewCell.swift; sourceTree = "<group>"; };
 		6F150BA723AAE0C800908DEB /* MapPlaceCallingAtTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPlaceCallingAtTableViewCell.swift; sourceTree = "<group>"; };
+		6F1A4AAD27B2472000BD5DF7 /* APIKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = "<group>"; };
 		6F1ABCAC24414C530032F145 /* NameCallingForTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NameCallingForTableViewCell.swift; path = ../NameCallingForTableViewCell.swift; sourceTree = "<group>"; };
 		6F29FA8A24149BCD0008D639 /* GetTimeDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTimeDifference.swift; sourceTree = "<group>"; };
 		6F3BF39A2388BADF003CE424 /* DetailCallingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCallingTableViewController.swift; sourceTree = "<group>"; };
@@ -118,7 +119,6 @@
 		6F84A6E42418A43D00EECBA2 /* NameCitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCitiesTableViewCell.swift; sourceTree = "<group>"; };
 		6F84A6E62418A45600EECBA2 /* LocalNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNameViewController.swift; sourceTree = "<group>"; };
 		6F84A6E82418A48100EECBA2 /* AboutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewCell.swift; sourceTree = "<group>"; };
-		6F84BBE827AFD432005F1D61 /* APIKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = "<group>"; };
 		6F8BE79D23EED8C300CEA348 /* DestinationNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationNameViewController.swift; sourceTree = "<group>"; };
 		6F8BE7B723F2631A00CEA348 /* DetailPlaceCallingAtTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlaceCallingAtTableViewCell.swift; sourceTree = "<group>"; };
 		6F91A37327AE106300C5B897 /* MapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
@@ -331,7 +331,7 @@
 				6FECA10123750BD200B7DD8B /* LaunchScreen.storyboard */,
 				6FECA10423750BD200B7DD8B /* Info.plist */,
 				6FB86C0623E87B6900672851 /* KeyManager.swift */,
-				6F84BBE827AFD432005F1D61 /* APIKey.plist */,
+				6F1A4AAD27B2472000BD5DF7 /* APIKey.plist */,
 			);
 			path = TIMMES;
 			sourceTree = "<group>";
@@ -407,7 +407,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FECA10323750BD200B7DD8B /* LaunchScreen.storyboard in Resources */,
-				6F84BBE927AFD432005F1D61 /* APIKey.plist in Resources */,
+				6F1A4AAE27B2472000BD5DF7 /* APIKey.plist in Resources */,
 				6FECA10023750BD200B7DD8B /* Assets.xcassets in Resources */,
 				6FECA0FE23750BCE00B7DD8B /* Main.storyboard in Resources */,
 			);
@@ -608,6 +608,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -668,6 +670,9 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -704,6 +709,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 			};
 			name = Debug;
 		};
@@ -715,7 +721,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JXVL9HBQR6;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				INFOPLIST_FILE = "$(SRCROOT)/TIMMES/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -726,6 +732,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 			};
 			name = Release;
 		};
