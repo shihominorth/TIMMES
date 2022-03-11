@@ -74,14 +74,14 @@ class EditingViewController: UIViewController {
                 edittingVC.delegate = self
             }
         }
-        if segue.identifier == "edittingLocalName" {
+        else if segue.identifier == "edittingLocalName" {
             if let edittingVC = segue.destination as? LocalNameViewController {
                 edittingVC.item = self.edittedItem
                 edittingVC.indexPath = self.indexPath
                 edittingVC.delegate = self
             }
         }
-        if segue.identifier == "edittingDestinationName" {
+        else if segue.identifier == "edittingDestinationName" {
             if let edittingVC = segue.destination as? DestinationNameViewController {
                 edittingVC.item = self.edittedItem
                 edittingVC.indexPath = self.indexPath
@@ -89,7 +89,7 @@ class EditingViewController: UIViewController {
             }
         }
         
-        if segue.identifier == "edittingNotification" {
+        else if segue.identifier == "edittingNotification" {
             if let edittingVC = segue.destination as? NotificationViewController {
                 edittingVC.item = self.edittedItem
                 edittingVC.indexPath = self.indexPath
@@ -97,7 +97,7 @@ class EditingViewController: UIViewController {
             }
         }
         
-        if segue.identifier == "editting place calling at" {
+        else if segue.identifier == "editting place calling at" {
             if let edittingVC = segue.destination as? PlaceCallingAtViewController {
                 edittingVC.item = self.edittedItem
                 edittingVC.indexPath = self.indexPath
@@ -117,7 +117,7 @@ class EditingViewController: UIViewController {
     @IBAction func done(_ sender: Any) {
         
         appDelegate.saveContext()
-        delegate?.DetailCallingTableViewController(self, didFinishEditting: edittedItem, indexPath: self.indexPath)
+        delegate?.detailCallingTableViewController(self, didFinishEditting: edittedItem, indexPath: self.indexPath)
         
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { (granted, _) in
             
@@ -309,6 +309,7 @@ extension EditingViewController: UITableViewDataSource {
             cell.localNameLabel.text = edittedItem.localName ?? "None"
             
             return cell
+            
         case 3:
             let cell = (tableView.dequeueReusableCell(withIdentifier: "local Time", for: indexPath) as? LocalTimeTableViewCell)!
             
@@ -324,6 +325,7 @@ extension EditingViewController: UITableViewDataSource {
             }
             
             return cell
+            
         case 4:
             let cell = (tableView.dequeueReusableCell(withIdentifier: "destination Name", for: indexPath) as? DestinationNameTableViewCell)!
             
@@ -331,6 +333,7 @@ extension EditingViewController: UITableViewDataSource {
             
             cell.DestinationNameLabel.text = edittedItem.destinationName ?? "None"
             return cell
+            
         case 5:
             let cell = (tableView.dequeueReusableCell(withIdentifier: "jet Lag", for: indexPath) as? JetLagTableViewCell)!
             
@@ -341,6 +344,7 @@ extension EditingViewController: UITableViewDataSource {
             cell.jetLagLabel.text = edittedItem.jetLag ?? "None"
             
             return cell
+            
         case 6:
             let cell = (tableView.dequeueReusableCell(withIdentifier: "destination Time", for: indexPath) as? DestinationTimeTableViewCell)!
             
@@ -354,12 +358,14 @@ extension EditingViewController: UITableViewDataSource {
             }
             
             return cell
+            
         case 7:
             let cell = (tableView.dequeueReusableCell(withIdentifier: "notification", for: indexPath) as? NotificaitonTableViewCell)!
             
             cell.notificateTimelabel.text = edittedItem.notification ?? "None"
             
             return cell
+            
         case 8:
             let cell = (tableView.dequeueReusableCell(withIdentifier: "detail place calling at", for: indexPath) as? DetailPlaceCallingAtTableViewCell)!
             

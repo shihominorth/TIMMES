@@ -8,14 +8,14 @@
 ////
 import UIKit
 ////
-protocol EdittingViewControllerDelegate: class {
+protocol EdittingViewControllerDelegate: AnyObject {
 //        func  DetailCallingTableViewController(_ controller: EditingViewController, didFinishEditting item: callingCellItem, indexPath: IndexPath)
     
-    func DetailCallingTableViewController(_ controller: EditingViewController, didFinishEditting item: Plan, indexPath: IndexPath)
+    func detailCallingTableViewController(_ controller: EditingViewController, didFinishEditting item: Plan, indexPath: IndexPath)
     
-    func DetailCallingTableViewController(_ controller: EditingViewController, addNewItem item: Plan, indexPath: IndexPath)
+    func detailCallingTableViewController(_ controller: EditingViewController, addNewItem item: Plan, indexPath: IndexPath)
     
-     func DetailCallingTableViewController(_ controller: EditingViewController, cancelItem item: callingCellItem, indexPath: IndexPath)
+     func detailCallingTableViewController(_ controller: EditingViewController, cancelItem item: callingCellItem, indexPath: IndexPath)
 }
 //
 //class DetailCallingTableViewController: UITableViewController {
